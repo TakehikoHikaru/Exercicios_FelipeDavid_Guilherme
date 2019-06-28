@@ -1,4 +1,4 @@
-package Questaoes;
+package Questoes;
 
 public class Questao12 {
 

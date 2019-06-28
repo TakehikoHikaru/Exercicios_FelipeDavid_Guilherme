@@ -1,4 +1,4 @@
-package exerciciosemdupla;
+package Questoes;
 import Util.Teclado;
 public class Questao03 {
 

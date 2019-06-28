@@ -1,4 +1,4 @@
-package Questaoes;
+package Questoes;
 
 import Util.Teclado;
 
