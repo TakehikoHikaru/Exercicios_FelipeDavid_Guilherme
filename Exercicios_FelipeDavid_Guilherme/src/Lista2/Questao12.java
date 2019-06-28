@@ -10,12 +10,12 @@ public class Questao12 {
 		int menor =0;
 		int maior =0;
 		
-		num = Teclado.lerInt("digite um numero inteiro(1)");
+		num = Teclado.lerInt("digite um numero inteiro(1):");
 		maior=num;
 		menor=num;
 		
 		for (int i = 1; i <5; i++) {
-			 num = Teclado.lerInt("digite um numero inteiro("+(i+1)+")");
+			 num = Teclado.lerInt("digite um numero inteiro("+(i+1)+"):");
 			 if(num<menor) {
 				 menor = num;
 			 }else if (num>maior){
