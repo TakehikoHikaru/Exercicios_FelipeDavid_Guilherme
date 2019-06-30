@@ -16,7 +16,10 @@ public class Questao12 {
 			if (num != -1) {
 				media += num;
 				count++;
-				if (num < menor || count == 1) {
+				if (count == 1) {
+					menor = num;
+					maior = num;
+				} else if (num < menor) {
 					menor = num;
 				} else if (num > maior) {
 					maior = num;
@@ -28,7 +31,7 @@ public class Questao12 {
 
 		System.out.println("menor numero digitado: " + menor);
 		System.out.println("maior numero digitado: " + maior);
-		System.out.println("media dos "+count+" numeros digitados: " + media);
+		System.out.println("media dos " + count + " numeros digitados: " + media);
 	}
 
 }
