@@ -1,4 +1,4 @@
-package Questoes;
+package Lista1;
 
 public class Questao12 {
 
