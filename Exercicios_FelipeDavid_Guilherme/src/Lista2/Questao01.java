@@ -13,10 +13,7 @@ public class Questao01 {
 			num /= 2; 
 			System.out.println("A metade do numero que você digitou é:" + num);
 		}else{
-			System.out.println("O numero que você digitou é:"+num);
+			System.out.println("O numero que você digitou é:" + num);
 		}
-		
-		
 	}
-
 }

@@ -14,14 +14,8 @@ public class Questao12 {
 	                }
 	            }else {
 	            	System.out.print("x - x  ");
-	            }
-	           
-	            
-	            
+	            }     
 	            }     
 	        }
-	 
-
 	}
-
 }

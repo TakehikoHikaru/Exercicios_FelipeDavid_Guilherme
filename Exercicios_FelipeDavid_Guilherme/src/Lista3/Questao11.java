@@ -8,8 +8,8 @@ public class Questao11 {
 			int b = 0;
 			int e = 0;
 			int result =1;
-		b = Teclado.lerInt("Digite um numero inteiro");
-		e = Teclado.lerInt("Digite um expoente");
+		b = Teclado.lerInt("Digite um numero inteiro:");
+		e = Teclado.lerInt("Digite um numero inteiro para ser o expoente:");
 
 		while(e>0) {
 			result*=b;
