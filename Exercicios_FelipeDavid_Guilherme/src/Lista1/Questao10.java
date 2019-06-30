@@ -9,11 +9,11 @@ public class Questao10 {
 		int n;		
 		
 		n = Teclado.lerInt("digite um numero: ");
-	
+		
 		for (int i = n-1; i>0; i--) {			
 			n *=i;			
 		}
-		System.out.println(n);
+		System.out.println("fatorial do numero digitado: "+n);
 	}
 
 }

@@ -12,7 +12,7 @@ public class Questao02 {
 		for(int i = 0;i<num;i++) {
 			soma += i+1;
 		}
-		System.out.println(soma);
+		System.out.println("soma dos numeros digitados: "+ soma);
 		
 		
 		
